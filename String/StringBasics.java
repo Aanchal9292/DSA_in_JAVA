@@ -1,7 +1,37 @@
 package String;
-
+import java.util.*;
 public class StringBasics {
     static void main() {
+        Scanner sc = new Scanner(System.in);
+//        String str = "College Wallah";
+//        System.out.println(str);
+//        String s =sc.next();   read only one word
+//        String s = sc.nextLine();
+//        System.out.println(s);
+//        String str = "hello";  // h i j k
+//        System.out.println(str.length());
+//        char ch = str.charAt(1);
+//        System.out.println(ch);
+//        System.out.println(str.indexOf('w'));
+//        String gtr = "mello";   // d e f g h
+//        System.out.println(str.compareTo(gtr));
+
+//        String str = "Physics Wallah";
+//        System.out.println(str.contains("p"));
+//        System.out.println(str.startsWith("W"));
+//        System.out.println(str.endsWith("ah"));
+
+        String s1 = "abc";
+        String s2 = "def";
+        System.out.println(s1.concat(s2));
+
+
+
+
+
+
+
+
 
 //        String name1 = "Love";
 //        String name2 = "LOVe";
